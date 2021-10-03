@@ -10,10 +10,10 @@ const addUserHandler = (uName,uAge) =>{
   });
 }
   return (
-    <div>
+    <React.Fragment>
       <AddUser onAddUser={addUserHandler}/>
       <UserList users={usersList}/>
-    </div>
+    </React.Fragment>
   );
 }
 
